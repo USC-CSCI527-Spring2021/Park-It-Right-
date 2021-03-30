@@ -11,6 +11,27 @@ The focus of this project is to develop an agent that is adept in obstacle avoid
 * [Nidhi Chaudhary](https://www.linkedin.com/in/nidhi86/)
 * [Sumanth Mothkuri](https://www.linkedin.com/in/sumanth-mothkuri/)
 
+## Technical paper
+
+<object data="https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/TechnicalPaper.pdf" type="application/pdf" width="750px" height="500px">
+    <embed src="https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/TechnicalPaper.pdf">
+        <p>This browser does not support PDF format. To view it: <a href="https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/TechnicalPaper.pdf">Click here</a>.</p>
+    </embed>
+</object>
+
+Access paper PDF [here](https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/TechnicalPaper.pdf)
+
+## Engineering Design Document
+
+<object data="https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/EDD_Midterm.pdf" type="application/pdf" width="750px" height="500px">
+    <embed src="https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/EDD_Midterm.pdf">
+        <p>This browser does not support PDF format. To view it: <a href="https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/EDD_Midterm.pdf">Click here</a>.</p>
+    </embed>
+</object>
+
+Access paper PDF [here](https://github.com/USC-CSCI527-Spring2021/Park-It-Right-/blob/main/EDD_Midterm.pdf)
+
+
 ## Repository
 
 Fork the repo here: [Github](https://github.com/USC-CSCI527-Spring2021/Park-It-Right-)
