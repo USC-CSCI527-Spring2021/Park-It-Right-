@@ -1,4 +1,3 @@
 title: Park It Right!
-theme: jekyll-theme-leap-day
-header_pages:
- - page1.md
+# theme: jekyll-theme-leap-day
+theme: minima
