@@ -7,7 +7,7 @@ The focus of this project is to develop an agent that is adept in obstacle avoid
 
 ## Technical paper
 
-<object data="https://usc-csci527-spring2021.github.io/Park-It-Right-/TechnicalPaper.pdf" type="application/pdf" width="600px" height="500px">
+<object data="https://usc-csci527-spring2021.github.io/Park-It-Right-/TechnicalPaper.pdf" type="application/pdf" width="750px" height="500px">
     <embed src="https://usc-csci527-spring2021.github.io/Park-It-Right-/TechnicalPaper.pdf">
         <p>This browser does not support PDF format. To view it: <a href="https://usc-csci527-spring2021.github.io/Park-It-Right-/TechnicalPaper.pdf">Click here</a>.</p>
     </embed>
@@ -17,7 +17,7 @@ Access paper PDF [here](https://usc-csci527-spring2021.github.io/Park-It-Right-/
 
 ## Engineering Design Document
 
-<object data="https://usc-csci527-spring2021.github.io/Park-It-Right-/EDD_Midterm.pdf" type="application/pdf" width="600px" height="500px">
+<object data="https://usc-csci527-spring2021.github.io/Park-It-Right-/EDD_Midterm.pdf" type="application/pdf" width="750px" height="500px">
     <embed src="https://usc-csci527-spring2021.github.io/Park-It-Right-/EDD_Midterm.pdf">
         <p>This browser does not support PDF format. To view it: <a href="https://usc-csci527-spring2021.github.io/Park-It-Right-/EDD_Midterm.pdf">Click here</a>.</p>
     </embed>
