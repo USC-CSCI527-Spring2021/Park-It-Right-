@@ -1,0 +1,9 @@
+# Park-It-Right
+
+## GOAL
+
+The focus of this project is to develop an agent that is adept in obstacle avoidance and seamless navigation. The project makes use of a multi-level car navigation game in Unity where a car must navigate through fixed and moving obstacles and park at the highlighted spot. The goal is to train the agent for the two levels of the game in Unity using different machine learning algorithms by tuning different hyperparameters and evaluating the results on the tensorboard.
+
+## BACKGROUND AND MOTIVATION
+
+We are in a generation of automation where most of the commonplace tasks are carried out by well trained automated systems. One such diurnal task is driving a vehicle and parking it at the appropriate parking spot. This problem opens doors to introduce an automated parking system where an artificially intelligent agent tries to overcome obstacles in its way and park the car in the right spot. Self driving/autonomous cars are a big sensation in recent times. Tesla, Waymo, BMW and many other mega corporations are now actively investing in this trend. Out of the many design considerations for such an autonomous vehicle, having a good parking system that helps in navigating through obstacles, identifying the right spot and parking the vehicle is of paramount importance. We drew inspiration from this exact problem and strived to develop a machine learning agent capable of doing the same using reinforcement learning. The fact that this technology can also be used for vacuum cleaners which can navigate through household items and clean the surface thoroughly has strengthened our motivation to work towards this project. Generally, it could be used for any obstacle avoidance and navigation system and hence it can have multiple applications from medicine to defense industry. 
