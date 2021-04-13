@@ -1,13 +1,62 @@
-# Park-It-Right
+# [Start Bootstrap - Small Business](https://startbootstrap.com/template/small-business/)
 
-## GOAL
+[Small Business](https://startbootstrap.com/template/small-business/) is a responsive marketing landing page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
-The focus of this project is to develop an agent that is adept in obstacle avoidance and seamless navigation. The project makes use of a multi-level car navigation game in Unity where a car must navigate through fixed and moving obstacles and park at the highlighted spot. The goal is to train the agent for the two levels of the game in Unity using different machine learning algorithms by tuning different hyperparameters and evaluating the results on the tensorboard.
+## Preview
 
-## BACKGROUND AND MOTIVATION
+[![Small Business Preview](https://assets.startbootstrap.com/img/screenshots/templates/small-business.png)](https://startbootstrap.github.io/startbootstrap-small-business/)
 
-We are in a generation of automation where most of the commonplace tasks are carried out by well trained automated systems. One such diurnal task is driving a vehicle and parking it at the appropriate parking spot. This problem opens doors to introduce an automated parking system where an artificially intelligent agent tries to overcome obstacles in its way and park the car in the right spot. Self driving/autonomous cars are a big sensation in recent times. Tesla, Waymo, BMW and many other mega corporations are now actively investing in this trend. Out of the many design considerations for such an autonomous vehicle, having a good parking system that helps in navigating through obstacles, identifying the right spot and parking the vehicle is of paramount importance. We drew inspiration from this exact problem and strived to develop a machine learning agent capable of doing the same using reinforcement learning. The fact that this technology can also be used for vacuum cleaners which can navigate through household items and clean the surface thoroughly has strengthened our motivation to work towards this project. Generally, it could be used for any obstacle avoidance and navigation system and hence it can have multiple applications from medicine to defense industry. 
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-small-business/)**
 
-## GAME OVERVIEW 
-Unity is one of the most popular game development engines that provides built in features like physics, 3D rendering, collision detection without having to reinvent the wheel for developing a game. Thus, we decided to go ahead with the Unity environment as it is a great simulation environment and offers cross platform development. Additionally, Unity offers ml-agents package which enables simulations to serve as environments for training agents. They provide implementations (based on PyTorch) to train intelligent agents, and also provide great support for reinforcement learning, imitation learning and many other methods.
-We found an open source 3D game developed in Unity and made modifications to it according to our use cases. 
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-small-business/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-small-business.svg)](https://www.npmjs.com/package/startbootstrap-small-business)
+[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-small-business.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-small-business)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-small-business/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-small-business)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-small-business/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-small-business?type=dev)
+
+## Download and Installation
+
+To begin using this template, choose one of the following options to get started:
+
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/small-business/)
+* Install via npm: `npm i startbootstrap-small-business`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-small-business.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-small-business)
+
+## Usage
+
+### Basic Usage
+
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+
+### Advanced Usage
+
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+You must have npm and Gulp installed globally on your machine in order to use these features.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-small-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/template/small-business/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+
+* <https://davidmiller.io>
+* <https://twitter.com/davidmillerhere>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-small-business/blob/gh-pages/LICENSE) license.
+# CSCI-527
