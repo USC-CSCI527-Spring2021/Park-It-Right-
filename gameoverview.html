@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Park It Right!</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/small-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Park It Right!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="gameoverview.html">Game Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="documentation.html">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <h2 class="font-weight-light text-center mt-4">About the Game</h2>
+    <div class="row align-items-center">
+      <p>Unity is one of the most popular game development engines that provides built in features like physics, 3D rendering, collision detection without having to reinvent the wheel for developing a game. Thus, we decided to go ahead with the Unity environment as it is a great simulation environment and offers cross platform development. Additionally, Unity offers ml-agents package which enables simulations to serve as environments for training agents. They provide implementations (based on PyTorch) to train intelligent agents, and also provide great support for reinforcement learning, imitation learning and many other methods.
+        We found an open source 3D game developed in Unity and made modifications to it according to our use cases. The two levels are described below.</p>
+    </div>
+    <!-- Heading Row -->
+    <div class="row align-items-center my-2">
+      <div class="col-lg-5">
+        <img class= "img-fluid rounded mb-4 mb-lg-0" src="resources/level1.png">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-7">
+        <h2 class="font-weight-light">Level 1 : Fixed obstacles</h2>
+        <p>Level 1 of the game consists of a bounded arena with a car starting at an arbitrary position and a parking spot appearing at another random position. The goal location or parking spot is highlighted in red color. <br>The car has to first identify that highlighted spot and then navigate towards it through three obstacles that are placed in the center of the arena.</p>
+        <!-- <a class="btn btn-primary" href="#">Call to Action!</a> -->
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-2">
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-7">
+        <h2 class="font-weight-light">Level 2 : Storeys and Moving obstacles</h2>
+        <p>Level 2 unlike level 1 is more complex. It consists of a bounded arena similar to level 1 but with moving obstacles and storeys. The car will start at an arbitrary position and a parking spot will appear on the same storey or a path will be highlighted to another storey. The car has to identify the respective highlighted parking spot or storey entrance and navigate through moving obstacles in the arena to reach the parking spot. The objects in the yellow color are obstacles and they move parallelly to the walls of the arena.</p>
+        <!-- <a class="btn btn-primary" href="#">Call to Action!</a> -->
+      </div>
+      <div class="col-lg-5">
+        <img class= "img-fluid rounded mb-4 mb-lg-0" src="resources/level2.png">
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-2 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Park It Right 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
