@@ -1,0 +1,34 @@
+behaviors:
+  MoveToGoalAgent:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 256
+      buffer_size: 20480
+      learning_rate: 1e-5
+      beta: 0.03
+      epsilon: 0.1
+      lambd: 0.92
+      num_epoch: 5
+      learning_rate_schedule: linear
+    network_settings:
+      use_recurrent: true
+      sequence_length: 64
+      memory_size: 256
+      normalize: false
+      hidden_units: 64
+      num_layers: 2
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.8
+        strength: 1.0
+      gail:
+        strength : 0.7
+        demo_path : ../../ILL21S1G/
+    keep_checkpoints: 5
+    checkpoint_interval: 500000
+    max_steps: 5000000
+    time_horizon: 256
+    summary_freq: 10000
+    threaded: true
+    framework: pytorch
